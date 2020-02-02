@@ -1,0 +1,16 @@
+{
+  "name": "telegram-uptime-bot",
+  "version": "1.0.0",
+  "description": "AWS lambda function to notify via Telegram the configured website is down",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["uptime bot", "aws lambda", "telegram node bot"],
+  "author": "dzv3",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
